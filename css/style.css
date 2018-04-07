@@ -107,13 +107,6 @@ a.btn-light {
     color: #111;
 }
 
-//medium+ screen sizes
-@media (min-width: 992px) {
-    .desktop-only {
-        display:block !important;
-    }
-}
-
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -923,6 +916,13 @@ body #loader-wrapper {
 
 .about_right {
     overflow-x: hidden;
+}
+
+//medium+ screen sizes
+@media (min-width: 992px) {
+    .desktop-only {
+        display:block !important;
+    }
 }
 
 .about_right > img {
